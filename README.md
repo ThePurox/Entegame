@@ -2,7 +2,30 @@
 
 # This is a modified version of the BLE-mod of the ENDGAME keyboards to give it Cherry ULP Switches
 
-This is untested! Proceed at your own risk!
+## Buildguide
+The soldering of the switches has to be done with care.
+I recommend to solder the switches by hand with a soldering iron, do not use a small hotplate. If you use a hotplate the thin PCB will bend due to the combination of thermal expansion of the board and the board being warmer on the side of the hotplate.
+As it cools down the solder solidifies and the switch will hold the PCB in its bend shape.
+I like to solder them by placing the switch on the PCB and soldering at least one of the accessible solder pads from the front.
+Then turn the PCB around such that you can see the solderpads for the reset button and solder the remaining pads from the bottom.
+Solder the pads on the PCB as well as the ones through the cutout.
+Be careful not to use to much solder when soldering the pads of the switches. If you use too much solder the switch will not work anymore. Try with one and see whether it still works before soldering in all the switches and potentially ruining all your switches.
+
+Solder the positive side of the battery (red wire) to the pad with the `+` next to it. The negative side of the battery (black wire) needs to be soldered to the pad with the `-` sign.
+
+Solder the [Nice!Nano](https://nicekeyboards.com/nice-nano/) or a clone with its components face up in the cutout on the PCB. See the pictures above for clarification.
+
+The last things to solder are [MSK12C02 on-off switche](https://www.lcsc.com/product-detail/C431540.html), the [5.1x5.1mm reset button](https://www.lcsc.com/product-detail/C318884.html) and the 36 [SOD123 / 1N4148W T4 diodes](https://www.lcsc.com/product-detail/C917030.html).
+
+Now it is time to install keycaps. You can get them printed at JLC3DP for relatively little money.
+There are a few choices for ULP-keycaps:
+
+- [Distorted Ellipsoidal Saddle (DES)](https://github.com/ThePurox/Cherry-ULP-DES-Keycaps)
+- [Chicago Stenographer (CS)](https://github.com/ThePurox/Cherry-ULP-Chicago-Stenographer-Keycaps)
+- [Subliminal Contradiction (SC)](https://github.com/ThePurox/Subliminal-Contradiction-Cherry-ULP)
+- [Fooker's ULP-caps](https://github.com/fooker/mnhttn/tree/main/keycaps)
+
+Some of the keycaps would collide with the mounting holes for the rubber grommets of oldman's original design. Therefore I advise to install rubber grommets only in the holes marked in the following picture.
 
 ![front view of the PCB](001%20PCB/front.png)
 
@@ -15,6 +38,9 @@ This is untested! Proceed at your own risk!
 ![side view of the case](004%20IMAGES/ulp_case_alu_2.webp)
 
 ![glass](004%20IMAGES/ulp_case_alu_4.webp)
+
+## Find below the readme of the BLE-fork of the original Endgame
+
 
 # This is amodified version of THE ENDGAME keyboard to make it wireless
 
